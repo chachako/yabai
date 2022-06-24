@@ -93,22 +93,19 @@
 
 ## 思路
 
-```flow
-start=>start: 登陆
-cache=>condition: 读取数据库消息缓存
-
-empty=>subroutine: 创建一个在后台填充的空列表
-empty-fill=>operation: 主动获取每个好友以及群聊的最后一条消息
-
-show=>inputoutput: 显示消息列表
-sync=>operation: 开始监听并缓存接收的消息
-end=>end: 登陆步骤完成
-
-start->cache
-cache(yes)->show
-cache(no)->empty->empty-fill->show
-show->sync->end
-
+```mermaid
+flowchart TD
+    A[登陆]--- |成功| cache{读取数据库消息缓存}
+    cache --> |存在缓存| show[显示消息列表]
+    show --> sync[开始监听并缓存接收的消息]
+    sync --> ed[登陆步骤完成]
+    
+    subgraph 检测缓存
+    cache --> |不存在缓存| empty[创建一个在后台填充的空列表]
+    empty --> empty-fill[主动获取每个好友以及群聊的最后一条消息]
+    empty-fill --> show
+    end
+  
 ```
 
 > and more...
