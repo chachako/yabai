@@ -1,4 +1,4 @@
-![cover](/Users/rin/Documents/Develop/Projects/compose/yabai/art/cover.png)
+![cover](art/cover.png)
 
 > 桌面 QQ 客户端**复活计划**
 >
@@ -8,13 +8,13 @@
 
 ## 概念
 
-![preview-light](/Users/rin/Documents/Develop/Projects/compose/yabai/art/preview-light.png)
+![preview-light](art/preview-light.png)
 
 ##### ▲ 亮色设计图
 
 ------
 
-![preview-dark](/Users/rin/Documents/Develop/Projects/compose/yabai/art/preview-dark.png)
+![preview-dark](art/preview-dark.png)
 
 ##### ▲ 暗色设计图
 
@@ -22,7 +22,7 @@
 
 ## 动机
 
-macOS 上的 QQ 客户端太糟糕了。
+我认为 macOS 上的 QQ 客户端太糟糕了。
 
 > 曾经带给我希望的 catalyst 版本在 0202 年底被抛弃了，而 mac 商店版本都 2202 年了还不添加夜间模式，大晚上所有 App 都是黑色的就这个破 QQ 还是亮色，🥷听了都忍不了
 >
