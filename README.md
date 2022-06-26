@@ -63,7 +63,7 @@
 
 - 使用 [**React Native**](https://reactnative.dev/) 或者 [**Electron**](https://www.electronjs.org/)
 
-  > 虽然似乎很好，但是不想写 ts/js
+  > 虽然似乎很好，但是不想用 ts/js 写前端
 
 *目前倾向于 **Compose***
 
@@ -80,11 +80,13 @@
 
   > 可能有帮助的：
   >
-  > https://github.com/eclipsesource/J2V8
+  > <https://www.graalvm.org/22.1/reference-manual/js/JavaInteroperability/>
   >
-  > https://github.com/caoccao/Javet
+  > <https://github.com/eclipsesource/J2V8>
   >
-  > https://stackoverflow.com/questions/14275479/calling-a-node-js-script-from-inside-java
+  > <https://github.com/caoccao/Javet>
+  >
+  > <https://stackoverflow.com/questions/14275479/calling-a-node-js-script-from-inside-java>
 
 - 使用 [**ricq**](https://github.com/lz1998/ricq)
 
@@ -100,7 +102,7 @@
   > - - [ ] 获取 Cookie，意味着 QQ 有一些已经存在的好用 Web API 都无法直接使用
   > - - [ ] 一些必备(?) 的主动 API: 例如修改昵称、修改头像等
   > - - [ ] 好友文件协议：<https://github.com/mamoe/mirai/issues/1416>
-  > - - [ ] 消息相关协议：<https://github.com/mamoe/mirai/pull/1520> <https://github.com/project-mirai/mirai-api-http/issues/338>
+  > - - [ ] 历史消息相关协议：<https://github.com/mamoe/mirai/pull/1520> <https://github.com/project-mirai/mirai-api-http/issues/338>
   > - - [ ] 缺少视频相关协议：<https://github.com/mamoe/mirai/issues/1664> <https://github.com/mamoe/mirai/issues/867>
   >
 
